@@ -1,0 +1,131 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: black;
+  background-image: url(cool-background.png);
+}
+
+a {
+  color: #ff9966;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a025da;
+}
+
+a:hover, a:focus {
+  color: #0599c2;
+  text-decoration: underline;
+}
+
+abbr {
+  text-transform: capitalize;
+}
+
+.page-wrapper {
+  float: center;
+  width: 66%;
+  margin: auto;
+  margin-left: 220px;
+  position: absolute;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.intro {
+  min-width: 470px;
+  width: 100%;
+}
+
+header {
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  margin-left: -20px;
+}
+
+header h1 {
+  font-size: 6em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+header h1, header h2 {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.summary {
+  font: italic 1.1em/2.2;
+  text-align: right;
+}
+
+.preamble {
+  clear: right;
+  padding: 0px 10px 0px 10px;
+}
+
+.preamble, .participation, .requirements {
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  margin-left: -20px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.preamble p, .preamble h3, .participation p, .participation h3, .requirements p, .requirements h3 {
+  margin-left: 20px;
+}
+
+.supporting {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+.sidebar {
+  border-top-right-radius: 20px;
+  font-size: 0.85em;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ff9966;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sidebar a {
+  color: black;
+  transition: all 0.1s ease-out;
+}
+.sidebar a:visited {
+  color: #a025da;
+}
+.sidebar a:hover, .sidebar a:focus {
+  color: #0599c2;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5em;
+}
+footer a {
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
