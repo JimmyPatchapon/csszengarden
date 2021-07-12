@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> Patchapon Rochananan
 >  
-> [Your ID]
+> 6210450652
 
 ## Task
 
