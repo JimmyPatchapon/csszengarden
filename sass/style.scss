@@ -1,4 +1,4 @@
-$trans-bg: rgba(138,188,159,0.5);
+$trans-bg: rgba(102,204,255,0.5);
 $icomoon-font-path: "fonts/footericon";
 $icomoon-font-family: "footericon";
 
@@ -227,4 +227,13 @@ footer a.zen-github:hover::before, footer a.zen-github:focus::before
 {
     color: #0599c2;
     transition: all 0.2s ease-out;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+.design-selection,.design-archives {
+    border-bottom: 2px white solid
 }
